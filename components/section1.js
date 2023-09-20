@@ -1,11 +1,39 @@
 import Image from "next/image";
 import Link from "next/link";
+import Author from "./_child/author";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import SwiperCore from "swiper";
+// Import Swiper styles
+import 'swiper/css';
 export default function section1() {
+  SwiperCore.use([Autoplay])
+
+  const bg = {
+      background: "url('/images/banner.png')no-repeat" ,
+      backgroundPosition: "right" ,
+  }
   return (
-    <section className="py-16">
+     <section className="py-16" style={bg}>
       <div className="container mx-auto md:px-20">
         <h1 className="pb-12 text-4xl font-bold text-center">Trending</h1>
-        {Slide()}
+        
+        <Swiper
+        slidesPerView={1}
+        autoplay={{
+          delay:1000}}     
+           
+        
+    >
+      <SwiperSlide>{Slide()}</SwiperSlide>
+      <SwiperSlide>{Slide()}</SwiperSlide>
+      <SwiperSlide>{Slide()}</SwiperSlide>
+      
+     
+    </Swiper>
+
+        
       </div>
     </section>
   );
@@ -28,7 +56,7 @@ function Slide() {
         <p className="py-3 text-gray-500">
         Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
         </p>
-          <h1>Author </h1>
+          <Author></Author>
       </div>
 
     </div>
