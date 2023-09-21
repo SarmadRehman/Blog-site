@@ -42,7 +42,7 @@ export default function section1() {
   );
 }
 function Slide({data}) {
-  const { category, img, published, author, description, title} = data;
+  const { category, img, published, author, description, title, } = data;
  
   return (
     
