@@ -22,9 +22,8 @@ export default function section1() {
         <Swiper
         slidesPerView={1}
         autoplay={{
-          delay:1000}}     
+          delay:2000}}     
            
-        
     >
       <SwiperSlide>{Slide()}</SwiperSlide>
       <SwiperSlide>{Slide()}</SwiperSlide>
