@@ -3,11 +3,13 @@ import Image from "next/image"
 import Author from "./_child/author"
 import getPost from "@/lib/helper"
 import fetcher from "@/lib/fetcher"
+import Spinner from "./_child/spinner"
+import Error from "./_child/error"
 export default function section2() {
   
   const {data, isLoading, isError} = fetcher('api/posts')
-  if(isLoading) return <div>Loading.....</div>
-  if(isError) return <div>Error...</div>
+  if(isLoading) return <Spinner></Spinner>
+  if(isError) return <Error></Error>
 
   return (
     <section className="container py-10 mx:auto md:px-20">
