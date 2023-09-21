@@ -10,7 +10,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
             text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
             `,
-            published: "Jun 3,  2022",
+            published: "-September 20, 2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
