@@ -27,7 +27,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
             text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
             `,
-            published: "Jun 5,  2022",
+            published: "Jun 5,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -44,7 +44,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
             text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
             `,
-            published: "Jun 7,  2022",
+            published: "Jun 7,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -61,7 +61,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
             text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
             `,
-            published: "Jun 10,  2022",
+            published: "Jun 10,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -78,7 +78,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
             text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
             `,
-            published: "Jun 14,  2022",
+            published: "Jun 14,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -111,7 +111,7 @@
             A small river named Duden flows by their place and supplies it with the necessary regelialia. 
             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
             `,
-            published: "Jun 3,  2022",
+            published: "Jun 3,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -142,7 +142,7 @@
             A small river named Duden flows by their place and supplies it with the necessary regelialia. 
             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
             `,
-            published: "Jun 5,  2022",
+            published: "Jun 5,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -173,7 +173,7 @@
             A small river named Duden flows by their place and supplies it with the necessary regelialia. 
             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
             `,
-            published: "Jun 7,  2022",
+            published: "Jun 7,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -204,7 +204,7 @@
             A small river named Duden flows by their place and supplies it with the necessary regelialia. 
             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
             `,
-            published: "Jun 10,  2022",
+            published: "Jun 10,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -235,7 +235,7 @@
             A small river named Duden flows by their place and supplies it with the necessary regelialia. 
             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
             `,
-            published: "Jun 14,  2022",
+            published: "Jun 14,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -266,7 +266,7 @@
             A small river named Duden flows by their place and supplies it with the necessary regelialia. 
             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
             `,
-            published: "Jun 5,  2022",
+            published: "Jun 5,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -285,7 +285,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
             far World of Grammar.
             `,
-            published: "Jun 3,  2022",
+            published: "Jun 3,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -302,7 +302,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
             far World of Grammar.
             `,
-            published: "Jun 5,  2022",
+            published: "Jun 5,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -319,7 +319,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
             far World of Grammar.
             `,
-            published: "Jun 7,  2022",
+            published: "Jun 7,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -336,7 +336,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
             far World of Grammar.
             `,
-            published: "Jun 10,  2022",
+            published: "Jun 10,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",
@@ -353,7 +353,7 @@
             Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
             far World of Grammar.
             `,
-            published: "Jun 14,  2022",
+            published: "Jun 14,  2023",
             author: {
                 name: "Flying High",
                 img: "/images/author/author1.jpg",

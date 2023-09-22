@@ -64,7 +64,7 @@ function Post({data}) {
             {title}
           </Link>
         </div>
-        {author?<Author></Author>: <></>}
+        { author ? <Author {...author}></Author> : <></>}
       </div>
     </div>
   );

@@ -16,7 +16,13 @@ export default function section3() {
         <h1 className="py-12 text-4xl font-bold text-center">Most Popular</h1>
       
       {/* {Swiper} */}
-      <Swiper slidesPerView={2}>
+      <Swiper 
+      breakpoints={{
+        640:{
+          slidesPerView:2,
+          spaceBetween:30
+        }
+      }}>
        {
        data.map((value,index)=>(
        <SwiperSlide key={index}><Post data={value}></Post></SwiperSlide>
@@ -44,7 +50,7 @@ function Post({data}) {
         <p className="py-3 text-gray-500">
        {description || "unknown"}
         </p>
-        {author?<Author></Author>: <></>}
+        { author ? <Author {...author}></Author> : <></>}
             </div>
         </div>
     )
