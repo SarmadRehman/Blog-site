@@ -32,15 +32,15 @@ function Post({data}) {
     return(
         <div className="items">
             <div className="images">
-            <Link href={"/"}><Image src={img || "/"} className="rounded" width={"500"} height={"350"} /></Link>
+            <Link href={`posts/${id}`}><Image src={img || "/"} className="rounded" width={"500"} height={"350"} /></Link>
               </div>
             <div className="flex flex-col justify-center py-4 info">
             <div className="cat">
-          <Link href={"/"} className="text-orange-600 hover:text-orange-800">{category || "unknown"} </Link>
-          <Link href={"/"} className="text-gray-800 hover:text-gray-600">{published || "unknown"}</Link>
+          <Link href={`posts/${id}`}className="text-orange-600 hover:text-orange-800">{category || "unknown"} </Link>
+          <Link href={`posts/${id}`} className="text-gray-800 hover:text-gray-600">{published || "unknown"}</Link>
         </div>
         <div className="title">
-          <Link href={"/"} className="text-xl font-bold text-gray-800 hover:text-gray-600">{title || "unknown"}</Link>
+          <Link href={`posts/${id}`} className="text-xl font-bold text-gray-800 hover:text-gray-600">{title || "unknown"}</Link>
         </div>
         <p className="py-3 text-gray-500">
         {description || "unknown"}

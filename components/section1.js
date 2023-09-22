@@ -42,22 +42,22 @@ export default function section1() {
   );
 }
 function Slide({data}) {
-  const { category, img, published, author, description, title, } = data;
+  const { id,category, img, published, author, description, title, } = data;
  
   return (
     
     <div className="grid md:grid-cols-2">
       <div className="image">
-        <Link href={"/"}><Image src={img} width={"600"} height={"600"} /></Link>
+        <Link href={`posts/${id}`}><Image src={img} width={"600"} height={"600"} /></Link>
         
       </div>
       <div className="flex flex-col justify-center info">
         <div className="cat">
-          <Link href={"/"} className="text-orange-600 hover:text-orange-800">{category}</Link>
-          <Link href={"/"} className="text-gray-800 hover:text-gray-600">{published}</Link>
+          <Link href={`posts/${id}`}className="text-orange-600 hover:text-orange-800">{category}</Link>
+          <Link href={`posts/${id}`} className="text-gray-800 hover:text-gray-600">{published}</Link>
         </div>
         <div className="title">
-            <Link href={"/"} className="text-3xl font-bold text-gray-800 md:text-6xl hover:text-gray-600">{title}</Link>
+            <Link href={`posts/${id}`} className="text-3xl font-bold text-gray-800 md:text-6xl hover:text-gray-600">{title}</Link>
           </div>
         <p className="py-3 text-gray-500">
         {description}
