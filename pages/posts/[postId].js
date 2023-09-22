@@ -3,11 +3,31 @@ import Author from "@/components/_child/author";
 import Image from "next/image";
 import Related from "@/components/_child/related";
 import getPost from "@/lib/helper";
+import fetcher from "@/lib/fetcher";
+import Spinner from "@/components/_child/spinner";
+import Error from "@/components/_child/error";
+import { useRouter } from "next/router";
+import { SWRConfig } from "swr";
 
-export default function Page({category, img, published, author, description, title, subtitle}) {
-  
-  
-  return (
+
+export default function Page ({fallback}){
+  const router = useRouter()
+  const {postId} = router.query; 
+  const {data, isLoading, isError} = fetcher(`api/posts/${postId}`)
+  if(isLoading) return <Spinner></Spinner>
+  if(isError) return <Error></Error>
+  return(
+    <SWRConfig value={{fallback}}>
+      <Article {...data}></Article>
+      
+    </SWRConfig>
+  )
+}
+
+
+function Article({category, img, published, author,
+   description, title, subtitle}) {
+   return (
     <Format>
       <section className="container w-1/2 py-16 mx-auto md:px-2">
         <div className="flex justify-center ">
@@ -38,8 +58,12 @@ export default function Page({category, img, published, author, description, tit
   export async function getStaticProps({params}) {
     const posts = await getPost(params.postId)
     return{
-      props: posts
+      props:{
+    fallback :{
+      'api/posts' : posts
     }
+      } 
+        }
   } 
 
   export async function getStaticPaths(){
